@@ -19,7 +19,10 @@
     <header class="text center margin_bottom_medium">
       {{#if tags}}<h5 class="text book small uppercase color c_black_light margin_bottom_small">Posted in {{tags}}</h5>{{/if}}
       <h1 class="margin_bottom_medium">{{{title}}}</h1>
-      <h5 class="text book small uppercase color c_black_light margin_bottom_small"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time></h5>
+      <h5 class="text book small uppercase color c_black_light margin_bottom_small"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time>
+      <br/><br/>
+      <a href="{{@blog.url}}{{url}}#disqus_thread">Comment</a>
+      </h5>
     </header>
 
     <section>

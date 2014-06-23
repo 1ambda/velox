@@ -17,7 +17,10 @@
   <article class="margin_bottom_big">
     <header class="text center margin_bottom_medium">
       <h1 class"margin_bottom_medium"><a href="{{url}}">{{{title}}}</a></h1>
-      <h5 class="text book small uppercase color c_black_light margin_bottom_small"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time><br/><br/><a href="{{url}}#disqus_thread">Comments</a></h5>
+      <h5 class="text book small uppercase color c_black_light margin_bottom_small"><time datetime="{{date format='YYYY-MM-DD'}}">{{date format="dddd, MMMM DD, YYYY"}}</time>
+      <br/><br/>
+      <a href="{{@blog.url}}{{url}}#disqus_thread">Comment</a>
+      </h5>
     </header>
 
     <section class="post-excerpt">
@@ -30,3 +33,4 @@
 
   {{pagination}}
 </main>
+

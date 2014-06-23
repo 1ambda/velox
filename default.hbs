@@ -38,7 +38,6 @@
 
   {{{body}}}
 
-
   <footer class="blog_info margin_top_big padding_medium text center">
     <h5 class="text book small">&copy; {{date format="YYYY"}} <a href="/">{{@blog.title}}</a>. All rights reserved.</h5>
     <h5 class="text book small"><a href="https://github.com/dreyacosta/velox" target="_blank" class="text bold">Velox theme</a> by <a href="http://dreyacosta.com/">David Rey</a></h5>
@@ -50,18 +49,13 @@
     Also go to partials/google-analytics.hbs to set your ID and DOMAIN.
   }}
   {{> google-analytics}}
-  <script type="text/javascript">
-/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
-  var disqus_shortname = '1ambda'; // required: replace example with your forum shortname
+  
+  {{!
+    Here, you can add disqus count
+    Also go to partials/disqus-count.hbs to set your shortname
+  }}
+  {{> disqus-count}}
 
-  /* * * DON'T EDIT BELOW THIS LINE * * */
-  (function () {
-   var s = document.createElement('script'); s.async = true;
-   s.type = 'text/javascript';
-   s.src = 'http://' + disqus_shortname + '.disqus.com/count.js';
-   (document.getElementsByTagName('HEAD')[0] || document.getElementsByTagName('BODY')[0]).appendChild(s);
-   }());
-  </script>
 
   </body>
   </html>
