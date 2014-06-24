@@ -5,9 +5,9 @@ forked from dereyacosta/velox
 ### Todo
 
 1. ~~Disqus~~
-2. Syntax Highlight
-3. Search
-4. Sitemap
+2. ~~Syntax Highlight~~
+3. Sitemap
+4. Search
 5. Custom Domain?
 
 ### Ghost installation

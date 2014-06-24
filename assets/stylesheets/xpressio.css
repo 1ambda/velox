@@ -169,7 +169,6 @@ pre {
 }
 pre,
 code {
-  font-family: 'Monaco', courier, monospace;
   line-height: 1.5em;
 }
 hr {
@@ -1125,7 +1124,8 @@ article > section > p > a {
 }
 pre,
 code {
-  background: #f0f0f0;
+  background: #f8f8f8;
+  border-radius: 10px;
 }
 code {
   background: #f0f0f0;
