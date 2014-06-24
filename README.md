@@ -6,9 +6,10 @@ forked from dereyacosta/velox
 
 1. ~~Disqus~~
 2. ~~Syntax Highlight~~
-3. Sitemap
-4. Search
-5. Custom Domain?
+3. ~~Sitemap~~
+4. ~~Google Analytics~~
+5. Search
+6. Custom Domain (Is it really necessary?)
 
 ### Ghost installation
 

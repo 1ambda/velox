@@ -36,6 +36,13 @@
   {{> highlight}}
 
   {{ghost_head}}
+
+  {{!
+    Here, you can add Google Analytics.
+    Also go to partials/google-analytics.hbs to set your ID and DOMAIN.
+  }}
+  {{> google-analytics}}
+  
 </head>
 <body>
 
@@ -47,12 +54,6 @@
     <h5 class="text book small">Proudly published with <a href="http://ghost.org"><span>Ghost</span></a></h5>
   </footer>
 
-  {{!
-    Here, you can add Google Analytics.
-    Also go to partials/google-analytics.hbs to set your ID and DOMAIN.
-  }}
-  {{> google-analytics}}
-  
   {{!
     Here, you can add disqus count
     Also go to partials/disqus-count.hbs to set your shortname
