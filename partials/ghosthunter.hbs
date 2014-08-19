@@ -1,0 +1,13 @@
+<form>
+<input id="search-field" />
+<input type="submit" value="search">
+</form>
+<section id="results"></section>
+<script src="/assets/ghosthunter/jquery.ghostHunter.min.js"></script>
+<script>
+$("#search-field").ghostHunter({
+  results : "#results",
+  onKeyUp : true,
+  displaySearchInfo : false
+});
+</script>

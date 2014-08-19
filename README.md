@@ -8,8 +8,9 @@ forked from dereyacosta/velox
 2. ~~Syntax Highlight~~
 3. ~~Sitemap~~
 4. ~~Google Analytics~~
-5. Search
-6. Custom Domain (Is it really necessary?)
+5. ~~Responsive Video, Image~~
+6. Search
+7. Custom Domain (Is it really necessary?)
 
 ### Ghost installation
 
